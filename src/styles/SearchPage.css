@@ -74,6 +74,7 @@
   height: 50px;
   width: 50px;
   object-fit: contain;
+  margin-right: 5px;
 }
 
 .searchPage_resultTitle {
