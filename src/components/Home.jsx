@@ -27,6 +27,8 @@ const Home = () => {
             <AppsIcon />
             <Avatar />
           </div>
+
+
         </div>
 
         <div className="home_body">
@@ -39,6 +41,9 @@ const Home = () => {
             <Search />
           </div>
         </div>
+
+
+        
       </div>
     </>
   );
