@@ -97,7 +97,7 @@ const SearchPage = () => {
           <div className="searchPage_results">
             <p className="searchPage_resultCount">
               About {data?.searchInformation?.formattedTotalResults} results (
-              {data?.searchInformation?.formattedSearchTime}) for <b>{term}</b>
+              {data?.searchInformation?.formattedSearchTime}s) for <b>{term}</b>
             </p>
 
             {data?.items.map((item) => {
