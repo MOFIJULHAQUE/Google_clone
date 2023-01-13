@@ -28,12 +28,12 @@ const SearchPage = () => {
     <>
       <div className="searchPage">
         <div className="searchPage_header">
-          <Link to="/">
+          <a href="/">
             <img
               src="https://cdn.pixabay.com/photo/2015/09/14/04/19/google-939112__340.png"
               alt=""
             />
-          </Link>
+          </a>
 
           <div className="searchPage_headerBody">
             <Search hideButtons />
