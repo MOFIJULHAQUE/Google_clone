@@ -91,8 +91,6 @@ const SearchPage = () => {
 
         {/*  */}
 
-
-
         {term && (
           <div className="searchPage_results">
             <p className="searchPage_resultCount">

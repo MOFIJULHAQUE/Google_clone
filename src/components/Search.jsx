@@ -48,7 +48,12 @@ const Search = ({ hideButtons }) => {
           </div>
         ) : (
           <div className="search_buttons">
-            <Button type="submit" variant="outlined" onClick={search} style={{display:"none"}}>
+            <Button
+              type="submit"
+              variant="outlined"
+              onClick={search}
+              style={{ display: "none" }}
+            >
               Google Search
             </Button>
           </div>

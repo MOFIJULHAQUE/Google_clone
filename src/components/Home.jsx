@@ -16,7 +16,7 @@ const Home = () => {
             <p>Store</p>
             <p>
               <Link to="/searchPage">
-                <b>SearchPage</b>
+                <b>Search Page</b>
               </Link>
             </p>
           </div>
@@ -27,8 +27,6 @@ const Home = () => {
             <AppsIcon />
             <Avatar />
           </div>
-
-
         </div>
 
         <div className="home_body">
@@ -41,9 +39,6 @@ const Home = () => {
             <Search />
           </div>
         </div>
-
-
-        
       </div>
     </>
   );
